@@ -509,7 +509,7 @@ main {
 }
 .text-primary-content {
   --tw-text-opacity: 1;
-  color: lightcoral;
+  color: rgb(14, 1, 1);
   /* hsl(var(--pc) / var(--tw-text-opacity)); */
 }
 .bg-primary {
