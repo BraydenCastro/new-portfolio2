@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="synthwave">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="../css/allaboutMe.css" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <!-- Adding call to JQuery to reuse navbar and footer -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+
+  <body class="h-screen">
+    <div class="flex flex-col min-h-full">
+      <div id="nav-placeholder"></div>
+      <script>
+        $(function(){
+          $("#nav-placeholder").load("html/navbar.html");
+        });
+      </script>
+
+      <main class="grow">
+        <div class="block-container">
+          <div class="prose md:prose-lg m-auto">
+            <h1 class="text-center">About Me</h1>
+            <div>
+              <p>
+                I am a freshman student at Rochester Institute of Technology; I
+                recently graduated high school and I am studying software
+                engineering. I spent my spare time developing several projects
+                including a tic-tac-toe game, game-hub discovery, a banking
+                scenario more.
+              </p>
+              <h2 id="things-i-enjoy-in-life">
+                Computer Languages I am very familiar
+              </h2>
+              <ul>
+                <li>HTML/CSS</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>React</li>
+              </ul>
+              <h2 id="about-this-site">About This Site</h2>
+              <p>
+                This website will display all the projects I have done using the
+                computer languages that I had learned throughout my software
+                devlopment Journey
+              </p>
+              <ul>
+                <li>Eclipse (Mostly used for Java Code)</li>
+                <li>Visual Studio Code (My favorite code editor)</li>
+              </ul>
+              <p>
+                I've found that using these tools helped make my code easier to
+                understand and made me more productive.
+              </p>
+              <h2 id="contact">Contact</h2>
+              <p>
+                Want to share how you found my site? Just saying hello? My email
+                is
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <div id="footer-placeholder"></div>
+      <script>
+        $(function(){
+          $("#footer-placeholder").load("html/footer.html");
+        });
+      </script>
+
+    </div>
+  </body>
+</html>
