@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="synthwave">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brayden Poma</title>
+    <link rel="stylesheet" href="./css/homepage.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body class="h-screen">
+    
+    <div class="flex flex-col min-h-full">
+      <!-- <nav class="navbar bg-neutral fixed left-0 bottom-0 md:relative z-50">
+        <a class="navbar-start px-2 mx-2 text-xl hidden md:block font-bold">
+          Brayden Castro
+        </a>
+        <div class="navbar-start md:hidden"></div>
+        <div class="navbar-center md:navbar-end">
+          <ul class="menu menu-horizontal p-0">
+            <li><a class="btn btn-ghost" href="./index.html">Home</a></li>
+            <li>
+              <a class="btn btn-ghost" href="./html/allaboutMe.html">About</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-end md:hidden"></div>
+      </nav> -->
+      <div id="nav-placeholder"></div>
+      <script>
+        $(function(){
+          $("#nav-placeholder").load("./html/navbar.html");
+        });
+      </script>
+        
+
+
+      <main class="grow">
+        <div class="hero h-96 bg-primary text-primary-content">
+          <div class="text-center hero-content flex-col-reverse md:flex-row">
+            <div class="text-center">
+              <h1 class="text-4xl md:text-5xl font-bold">I'm Brayden Castro</h1>
+              <p class="py-4">
+                A freshman student at Rochester Institue of Technology,studying
+                software engineering. Develops websites, and software scenarios.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="block-container">
+          <section class="w-full">
+            <h2 class="secondary-title">Projects I worked on</h2>
+            <div class="group border mockup-window bg-base-300">
+              <p
+                class="absolute top-3.5 right-4 font-mono xl:opacity-0 group-hover:opacity-100 transition-opacity text-sm md:text-base"
+              >
+                game-hub
+              </p>
+              <div
+                class="graphcms-image-outer-wrapper style-gSztT"
+                id="style-gSztT"
+              >
+                <div
+                  class="graphcms-image-wrapper style-vs6yh"
+                  id="style-vs6yh"
+                >
+                  <div id="style-QF3TU" class="style-QF3TU"></div>
+                  <img
+                    alt=""
+                    title=""
+                    src="./React_ListProj.png"
+                    id="style-gzyC3"
+                    class="style-gzyC3"
+                  /><img
+                    alt=""
+                    title=""
+                    src="./React_ListProj.png"
+                    id="style-19DnI"
+                    class="style-19DnI"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <div id="footer-placeholder"></div>
+      <script>
+        $(function(){
+          $("#footer-placeholder").load("./html/footer.html");
+        });
+      </script>
+
+      
+    </div>
+  </body>
+</html>
